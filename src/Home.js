@@ -1,7 +1,7 @@
 import { Nav, Button} from "react-bootstrap";
 
 function Home(props) {
-  console.log(props)
+  // console.log(props)
     return (
       <div >
            <br/>

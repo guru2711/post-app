@@ -72,7 +72,7 @@ function View ({match}) {
 
     const fetchItem = async () => {
         const fetchItem = await axios.get(`https://jsonplaceholder.typicode.com/posts/${id}`)
-        console.log(fetchItem)
+        // console.log(fetchItem)
         setProfile(fetchItem.data)
     }
 
